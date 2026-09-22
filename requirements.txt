@@ -1,12 +1,15 @@
 statsmodels==0.14.6
 matplotlib>=3.8.0
 codecarbon==3.3.0
-google-generativeai>=0.8.0
+openai>=1.40.0
+python-dotenv>=1.0.0
 instructor==1.15.4
 pydantic>=2.8.0
 pdfplumber==0.11.10
 numpy>=1.26.0
-pandas>=2.2.0
+pandas==2.2.3
 scipy>=1.13.0
 scikit-learn>=1.4.0
-rpy2>=3.5.0
+seaborn>=0.13.0
+# rpy2>=3.5.0  # requires a local R installation; not used by the notebook
+ipykernel>=6.29.0  # lets VS Code / Jupyter run this notebook against the venv
